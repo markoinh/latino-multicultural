@@ -1,0 +1,388 @@
+
+/*Html style*/
+html {
+    font-size: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  /*Index page*/
+  /*start header*/
+ 
+  .nav-list a {
+    font-size: 1.6rem;
+  }
+  .nav-list a:hover {
+    color: #037971;
+  }
+  
+  /*Hero image*/
+  
+ 
+  .hero-image h1 {
+    position: absolute;
+    top: 62%;
+    left: 6%;
+    background-color: #fff;
+    height: 10vh;
+    font-size: 4.8rem;
+    color: #fe5e41;
+    width: 90vh;
+  }
+  
+  /*Grid Content*/
+  
+  
+  .content-grid-each h2 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .content-grid-each p,
+  .content-grid-each ul {
+    font-size: 1.8rem;
+  }
+  
+  .employment-assistance h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 2rem;
+  }
+  
+ 
+  .volunteer h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 2rem;
+  }
+  
+  .sixth {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .mental-health h2 {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+ 
+  .fifth a:hover {
+    border: solid 1px #037971;
+  }
+  
+  .fifth .btn,
+  .sixth .btn,
+  .fourth .btn {
+    width: 35%;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+  }
+  .seventh h2 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  /*Testimonials content*/
+ 
+  .each-testimonial p {
+    font-size: 1.6rem;
+  }
+
+  /*Footer*/
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+  }
+  .footer-info h4 {
+    font-size: 2rem;
+  }
+  
+ 
+ 
+  /*Gallery style*/
+  
+  .gallery h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  
+  /*Our philosophy*/
+  
+  .content-story h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  .content-story p {
+    font-size: 18px;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  
+ 
+  .values h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+  }
+  
+  .value-each h3 {
+    font-size: 2rem;
+  }
+  
+  .mission-vision h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+  }
+  .mission-vision p {
+    font-size: 1.8rem;
+  
+    color: #fff;
+    padding: 0 12rem;
+  }
+  
+ 
+  
+  .shortvideo h2 {
+      text-align: center;
+      font-size: 4rem;
+      margin-bottom: 2rem;
+    }
+ 
+  /*Contact style*/
+  
+  .contact-content h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  .contact-content p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .we-are-social h2 {
+    text-align: center;
+    font-size: 3.2rem;
+  }
+
+ 
+  .sub {
+    font-size: 4rem;
+    left: 18%;
+    position: absolute;
+    color: #5438dc;
+  }
+  
+  .contact-title h2 {
+    text-align: center;
+    font-size: 3.2rem;
+    color: #fff;
+  }
+  .contact-content-form form .bt {
+    width: 100%;
+    margin-left: 1rem;
+    background-color: #037971;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    font-size: 1.3rem;
+    transition: 0.5s;
+  }
+  
+  
+
+  .contact-content-form form label,
+  .contact-content-form form input {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+ 
+ 
+  
+  
+  @media (max-width: 1200px) {
+    
+    /*Contact style*/
+    .contact-content h1 {
+      font-size: 2.8rem;
+      margin-bottom: 2rem;
+    }
+    .contact-content p {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+  }
+  @media (max-width: 1000px) {
+    
+    .content-grid-each p,
+    .content-grid-each ul {
+      font-size: 1.6rem;
+    }
+    
+    .fifth .btn,
+    .sixth .btn,
+    .fourth .btn {
+      width: 45%;
+      text-align: center;
+      font-size: 1.6rem;
+      margin-top: 1rem;
+    }
+  }
+  @media (max-width: 780px) {
+   
+    .hero-image h1 {
+      position: absolute;
+      top: 62%;
+      left: 0;
+      background-color: #fff;
+      height: 10vh;
+      font-size: 2.8rem;
+      color: #fe5e41;
+      width: 80vh;
+    }
+    
+    .fifth .btn,
+    .sixth .btn,
+    .fourth .btn {
+      width: 60%;
+      text-align: center;
+      font-size: 1.6rem;
+      margin-top: 1rem;
+    }
+    
+    /*Footer*/
+    
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.6rem;
+      padding: 2rem 0;
+    }
+    /*Our phillosophy*/
+    
+    .content-story h1 {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+    }
+    .content-story p {
+      font-size: 1.6rem;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    /*Our philosophy*/
+    
+    .mission-vision h2 {
+      text-align: center;
+      color: #fff;
+      font-size: 2.4rem;
+      margin-bottom: 1.5rem;
+    }
+    .mission-vision p {
+      font-size: 1.6rem;
+      color: #fff;
+      padding: 0 5rem;
+    }
+    
+    
+   
+  
+  @media (max-width: 528px) {
+   /*Our philosophy*/
+    .mission-vision p {
+      font-size: 1.6rem;
+      color: #fff;
+      padding: 0 2rem;
+    }
+    /*Contact style*/
+   
+    .contact-content h1 {
+      font-size: 2.6rem;
+      margin-bottom: 2rem;
+    }
+    .contact-content p {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+    .we-are-social h2 {
+      font-size: 2.4rem;
+      margin-bottom: 2rem;
+    }
+    
+    .sub {
+      font-size: 3rem;
+    }
+    
+  }
+  
+  @media (max-width: 428px) {
+  
+   
+    .hero-image h1 {
+      font-size: 2.4rem;
+      padding-left: auto;
+      padding-right: auto;
+      width: 100vh;
+    }
+   
+   
+  
+    .fifth .btn,
+    .sixth .btn,
+    .fourth .btn {
+      width: 80%;
+      text-align: center;
+      font-size: 1.6rem;
+      margin-top: 1rem;
+    }
+    
+    
+   
+    .footer-info ul {
+      font-size: 1.6rem;
+      margin-right: 5rem;
+    }
+    .subscribe {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      font-size: 1.4rem;
+    }
+  
+    
+   
+  }
+  @media screen and (min-width: 429px) {
+      header .menu-btn, header .close-button {
+        display: none;
+      }
+     
+    }
+  
+    
+  @media (max-width: 390px){
+      .hero-image h1 {
+          font-size: 2.2rem;
+          padding-left: auto;
+          padding-right: auto;
+          width: 100vh;
+        }
+        
+  }
+  
+  @media (max-width: 375px){
+      
+      .footer-info ul{
+          font-size: 1.4rem;
+          margin-right: 5rem;
+      }
+     
+  }

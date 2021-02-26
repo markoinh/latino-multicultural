@@ -1,0 +1,854 @@
+
+
+  /*Index page*/
+  /*start header*/
+  header {
+    padding: 0 7.4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .top-nav {
+    width: 40%;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  /*Hero image*/
+  
+  .hero-image {
+    width: 100%;
+    height: 50vh;
+    background: url(images/multicultural-club-hobart.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /*Grid Content*/
+  
+  .content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2rem;
+    margin: 2rem 0;
+  }
+  .content-grid-each {
+    padding: 0 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+  .content-grid-each p {
+    margin-bottom: 0.8rem;
+  }
+ 
+  .first,
+  .second,
+  .third {
+    height: 40vh;
+  }
+  .second {
+    background-color: #ffed66;
+  }
+  .employment-assistance {
+    background-color: #5438dc;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+  
+  }
+  
+  
+  .fourth,
+  .fifth,
+  .sixth {
+    width: 75vh;
+  }
+  .volunteer {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    background-color: #fe5e41;
+    
+  }
+ 
+  
+  .sixth {
+    display: flex;
+    flex-direction: column;
+  }
+  .mental-health {
+    display: flex;
+    margin: 2rem 0;
+    flex-direction: column;
+   
+    
+  }
+  
+  .mental-health-content {
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  
+  .fifth a:hover {
+    border: solid 1px #037971;
+  }
+  
+  
+  .seventh h2 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  /*Testimonials content*/
+  .testimonial-and-social {
+    margin: 2rem 0;
+    background-color: #FCDEBE;
+  }
+  .testimonial {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+  }
+  .each-testimonial {
+    width: 40vh;
+  }
+  
+  .each-testimonial img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .each-testimonial .name {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  /*Footer*/
+   .fot-wave{
+       display: flex;
+       flex-direction: column;
+   }
+  footer {
+    background-color: #020e2b;
+    color: #fff;
+    padding: 0 7.4rem;
+  }
+  .footer-info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+ .social-link{
+     display: flex;
+     justify-content: space-around;
+ }
+ .social-link i:hover{
+     color: #037971;
+ }
+  .footer-info ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+  }
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe label {
+    margin-bottom: 1.5rem;
+  }
+  .subscribe p{
+      margin-top: 2rem;
+  }
+  .btn {
+    background-color: #037971;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.3rem 3rem;
+    border: none;
+  }
+  .btn:hover {
+    color: #037971;
+    background-color: #fff;
+  }
+  
+  /*Gallery style*/
+  .gallery {
+    margin: 2rem 0;
+    padding: 0 5.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gallery-grid {
+    line-height: 0;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 4;
+    -moz-column-gap: 0px;
+    column-count: 4;
+    column-gap: 0px;
+  }
+  .gallery-grid img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /*Our philosophy*/
+  .about-us {
+    display: flex;
+    padding: 0 3.5rem;
+  }
+  .content-story {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 1rem;
+  }
+  
+  
+  
+  .our-philosophy {
+    margin-top: 1.5rem;
+    padding: 0 3.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .values {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffed66;
+  }
+  
+  .values-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .value-each {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mission-vision {
+    display: flex;
+    margin-top: 1.5rem;
+  }
+  .mission {
+    width: 50%;
+    background-color: #5438dc;
+    padding: 6rem 0;
+    
+  }
+  
+  .vision {
+    width: 50%;
+    background-color: #fe5e41;
+    padding: 6rem 0;
+   
+  }
+  .shortvideo {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  .shortvideo iframe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 520px;
+    frameborder="0"
+  }
+  /*Contact style*/
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5438dc;
+  }
+  .contact-content {
+    color: #fff;
+    width: 50%;
+    padding: 10rem;
+  }
+  .contact-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+ 
+  .contact-content p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .we-are-social {
+    margin: 1rem 7.4rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #66cfe7;
+    color: #fff;
+    padding: 3rem;
+  }
+  
+  .social-media {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .social-media i:hover {
+    color: #037971;
+  }
+  .form-multi {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+ 
+  .form-contact {
+    background-color: #fe5e41;
+    border-radius: 0 10rem 0 10rem;
+    display: flex;
+    flex-direction: column;
+    margin: 8.5rem 0 1rem 0;
+    padding: 2rem 4rem 4rem 4rem;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+  .contact-form {
+    padding: 2.5rem;
+    color: #fff;
+  }
+  .input-group-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contact-form .input {
+    display: block;
+    background-color: transparent;
+    color: #fff;
+    padding-left: 0;
+  }
+  .personal-information {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .phone-email {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .input-group {
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    width: 100%;
+  }
+  
+  .contact-content-form input:focus {
+    color: #000;
+  }
+  #message {
+    width: 100%;
+  }
+  
+  .contact-content-form .bt:hover {
+    color: #037971;
+    background-color: #fff;
+  }
+  
+ 
+  
+  @media (max-width: 1200px) {
+      
+      /*Gallery*/
+    .gallery-grid {
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-count: 3;
+    }
+    .hero-image h1 {
+      left: 5%;
+    }
+    
+    .content-grid-each {
+      padding: 0 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .employment-assistance,
+    .mental-health,
+    .volunteer {
+      height: 50vh;
+    }
+    /*Our philosophy*/
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-story {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 1rem;
+      }
+    .mission-vision{
+        display: flex;
+        flex-direction: column;
+    }
+    .mission {
+        width: 100%;
+        background-color: #5438dc;
+        padding: 6rem 0;
+        
+      }
+      .vision {
+        width: 100%;
+        background-color: #fe5e41;
+        padding: 6rem 0;
+       
+      }
+      /*Footer*/
+    footer {
+      padding: 0.5rem;
+    }
+   
+  }
+  @media (max-width: 1000px) {
+      /*Header*/
+    header {
+        padding: 0 4.4rem;
+      }
+/*Hero style*/
+      .hero-image h1 {
+        left: 10%;
+      }
+       /*Landing page style*/
+    .employment-assistance,
+    .mental-health,
+    .volunteer {
+      height: 42vh;
+    }
+      /*Gallery style*/
+    .gallery-grid {
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-count: 3;
+    }
+    .content-grid-each p {
+      margin-bottom: 0.8rem;
+    }
+   
+   
+  }
+  @media (max-width: 780px) {
+/*Header*/
+header {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-nav {
+    width: 60%;
+  }
+
+  /*Landig page style*/
+  .employment-assistance,
+  .mental-health,
+  .volunteer {
+    height: 40vh;
+  }
+
+  .employment-assistance h2,
+  .mental-health h2,
+  .volunteer h2 {
+    margin-bottom: 2rem;
+  }
+ 
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+      /*Gallery*/
+    .gallery-grid {
+      -moz-column-count: 2;
+      -webkit-column-count: 2;
+      column-count: 2;
+    }
+    
+    
+    .content-grid-each {
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      
+    /*Footer*/
+    .footer {
+      padding: 0 2rem;
+    }
+   
+    /*Our phillosophy*/
+    .about-us {
+      display: flex;
+      flex-direction: column;
+    }
+    .content-story {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0 1rem;
+    }
+    .mission-vision{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+    .our-philosophy {
+      margin-top: 1.5rem;
+      padding: 0 1.5rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .values-content {
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .mission {
+      width: 100%;
+      background-color: #5438dc;
+      padding: 6rem 0;
+   
+    }
+    .vision {
+      width: 100%;
+      background-color: #fe5e41;
+      padding: 6rem 0;
+  
+    }
+    .shortvideo iframe {
+      margin-left: auto;
+      margin-right: auto;
+      width: 450px;
+      height: 260px;
+    }
+    
+    /*Contact style*/
+    .contact {
+      display: flex;
+      flex-direction: column-reverse;
+      background-color: #fff;
+    }
+    .contact-content {
+      color: #fff;
+      width: 100%;
+      padding: 10rem;
+      background-color: #5438dc;
+    }
+    .contact-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .sub {
+      left: 10%;
+    }
+    .form-contact {
+      width: 90%;
+    }
+    .personal-information,
+    .phone-email {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+   
+    
+  }
+  
+  @media (max-width: 528px) {
+      /*Header style*/
+    .top-nav {
+      width: 90%;
+    }
+  /*Landing page style*/
+    .mental-health-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .employment-assistance,
+    .mental-health,
+    .volunteer {
+      height: 100vh;
+    }
+    .fourth,
+    .fifth,
+    .sixth {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+    }
+    .fifth .btn,
+    .sixth .btn,
+    .fourth .btn {
+      width: 60%;
+    }
+    /*Our Phillosophy*/
+    .values-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .values h2 {
+      margin-bottom: 2rem;
+    }
+    .mission {
+      width: 100%;
+      background-color: #5438dc;
+      padding: 6rem 0;
+    
+      margin-bottom: 2rem;
+    }
+    .vision {
+      width: 100%;
+      background-color: #fe5e41;
+      padding: 6rem 0;
+     
+    }
+    .mission-vision {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+   
+    /*Contact style*/
+    .contact-content {
+      color: #fff;
+      width: 100%;
+      padding: 5rem;
+      background-color: #5438dc;
+    }
+    
+    .social-media {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .each-social {
+      margin-bottom: 4rem;
+    }
+    
+    .form-contact {
+      width: 90%;
+      padding: 2rem 0.5rem 2rem 0.5rem;
+    }
+    .input-group-wrap {
+      width: 100%;
+    }
+    .contact-title {
+      width: 100%;
+    }
+    .subscribe-sub{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-content-form {
+      width: 100%;
+    }
+   
+  }
+  @media (max-width: 480px){
+   .content-grid-each {
+       width: 80%;
+   }
+
+  }
+  
+  @media (max-width: 428px) {
+  /*Gallery style*/
+    .gallery-grid {
+      -moz-column-count: 1;
+      -webkit-column-count: 1;
+      column-count: 1;
+    }
+    .hero-image h1 {
+      font-size: 2.4rem;
+      padding-left: auto;
+      padding-right: auto;
+      width: 100vh;
+    }
+    .content-grid-each {
+      padding: 0 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  /*Landing page style*/
+    .first,
+    .second,
+    .third {
+      height: auto;
+      padding: 2rem 0;
+      
+    }
+    .first p,
+    .second p,
+    .third p, ul{
+        width: 80%;
+    }
+  
+    .fourth,
+    .first,
+    .second,
+    .third,
+    .fifth,
+    .sixth,
+    .seventh {
+      width: 100%;
+    }
+    .employment-assistance,
+    .mental-health,
+    .volunteer {
+      height: 100vh;
+    }
+    .mental-health-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    
+    .fourth,
+    .fifth,
+    .sixth {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    /*Footer style*/
+    .footer {
+      padding: 0rem;
+    }
+    .footer-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-link{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+  
+    .subscribe-sub {
+      display: flex;
+    }
+    /*Contact style*/
+    .contact-content {
+      color: #fff;
+      width: 100%;
+      padding: 3rem;
+      background-color: #5438dc;
+    }
+    
+  }
+  @media screen and (min-width: 429px) {
+      header .menu-btn, header .close-button {
+        display: none;
+      }
+     
+    }
+  
+    
+ 
+  @media (max-width: 375px){
+      /*Landing page*/
+      .fourth,
+      .fifth,
+      .sixth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+      }
+      .employment-assistance,
+      .mental-health,
+      .volunteer {
+        height: 100vh;
+        width: 100%;
+      }
+      /*Landing page style*/
+      .testimonial-and-social .each-testimonial p{
+          width: 80%;
+      }
+      .each-testimonial{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      /*Footer style*/
+      .footer-info{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .subscribe-sub {
+          display: flex;
+          flex-direction: column;
+  
+      }
+     
+     
+  }
+  @media (max-width: 360px){
+    .employment-assistance,
+    .mental-health,
+    .volunteer {
+      height: 100vh;
+    }
+  }
